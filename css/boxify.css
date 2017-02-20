@@ -1,0 +1,78 @@
+html,body{
+  margin: 0;
+  padding: 0;
+}
+h1,h2,p{
+  margin: 0;
+  padding: 0;
+}
+.width{
+  width: 1024px;
+  margin: 0 auto;
+}
+/*HEAD STARTED*/
+.header{
+  background: url('../img/hero.jpg');
+  height: 800px;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  height: 100px;
+  padding-bottom: 100px;
+}
+.logo {
+  background: url('../img/sprite.png') no-repeat -178px -211px;
+	width: 78px;
+	height: 42px;
+}
+.menu {
+  color: white;
+  display: flex;
+}
+.menu p{
+  font-size: 17px;
+  padding-top: 15px;
+}
+.menu i{
+  font-size: 45px;
+  padding-left: 20px;
+}
+.center{
+  padding-top: 100px;
+}
+.words{
+  font-size: 20px;
+  color: white;
+  padding-bottom: 40px;
+}
+.button button{
+  padding: 20px 35px;
+  cursor:pointer;
+  background-color: white;
+  border-radius: 5px;
+  color: #6BAAB7;
+}
+.button button:last-child{
+  padding: 20px 35px;
+  background-color: Transparent;
+  cursor:pointer;
+  outline:none;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+}
+/*HEADER FINISHED*/
+/*VIDEO STARTED*/
+.video{
+  height: 200px;
+  text-align: center;
+}
+.video img{
+  display: inline-block;
+  padding-top: 50px;
+}
+.video p{
+  display: inline-block;
+}
