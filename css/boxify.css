@@ -345,6 +345,10 @@ html, body {
     height: 25%;
 }
 
+.photos>img:hover{
+    opacity: 0.5; 
+}
+
 .enough {
     height: 300px;
     display: flex;
