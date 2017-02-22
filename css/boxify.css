@@ -345,7 +345,10 @@ html, body {
     height: 25%;
 }
 
-
+.photos>img:hover{
+    transform: scale(1.1,1.1);
+    transition: 0.3s;
+}
 
 .enough {
     height: 300px;
