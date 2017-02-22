@@ -29,7 +29,6 @@ html, body {
     padding: 0;
     vertical-align: top;
     display: inline-block;
-    float: right;
     color: white;
     font-size: 20px;
     padding-right: 16px;
@@ -132,6 +131,7 @@ html, body {
     background: blue;
     background: url(../img/features-intro.jpg);
     display: flex;
+    background-size: cover;
 }
 
 .slider_rght {
@@ -233,7 +233,7 @@ html, body {
 
 .iphone {
     position: relative;
-    left: 60px;
+    left: 176px;
     width: 539px;
 }
 
@@ -346,7 +346,7 @@ html, body {
 }
 
 .photos>img:hover{
-    opacity: 0.5; 
+    opacity: 0.5;
 }
 
 .enough {
